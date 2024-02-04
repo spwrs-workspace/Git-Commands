@@ -28,27 +28,27 @@ git commit -m "message"
 
 git restore file_name: to restore the file to the latest head
 
-checking list of branches and the current branch in it : git branch
+git branch : checking list of branches and the current branch in it
 
-creating new branch: git branch branch_name
+git branch branch_name: creating new branch
 
-moving to new branch: git checkout branch_name
+git checkout branch_name: moving to new branch
 
-creating and moving to new branch in the same step: git checkout -b branch_name
+git checkout -b branch_name: creating and moving to new branch in the same step
 
-adding and commiting in the same step: git commit -am "message" 
+git commit -am "message": adding and commiting in the same step 
 
-merging two branches(you should be on master): git merge branch_name
+git merge branch_name: merging two branches(you should be on master)
 
-to resolve merging: git add filename
+git add filename: to resolve merging
 
-udoing merging: git merge --abort
+git merge --abort: undoing merging
 
-deleting branch : git branch -d branch_name
+ git branch -d branch_name: deleting branch
 
-adding tag to particular commit: git tag -a version1.0 f7b607fdafd882cfc89275c58de177b5fa84413f -m "version 1.0"
+git tag -a version1.0 f7b607fdafd882cfc89275c58de177b5fa84413f -m "version 1.0": adding tag to particular commit
 
-deleting tag: git tag -d version1.0
+git tag -d version1.0: deleting tag
 
 git stash: to save the changes made locally to a safe place so that further can be referenced by using stash apply
 
